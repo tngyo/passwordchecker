@@ -7,7 +7,7 @@ $python3 password_checker.py password123
 
 The api is from https://haveibeenpwned.com/API/v3#BreachesForAccount
 
-You will need to have Python3 installed. These 3 modules requests, hashlib, and sys have to be imported first.
+You will need to have Python3 installed.
 
 The check is safe in the sense that it uses k-anonimty. Program hashed password locally and 
 send only first 5 hasehed characters, received the rest with matching prefixes, before matching
