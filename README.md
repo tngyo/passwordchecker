@@ -13,3 +13,5 @@ The check is safe in the sense that it uses k-anonimty. Program hashed password 
 send only first 5 hasehed characters, received the rest with matching prefixes, before matching
 again the suffixes with the rest of the local hashed password queried. That means no comeplete text (unencrypted)
 password was sent over the internet to be checked.
+
+![password checker](https://github.com/palden/passwordchecker/blob/master/password_checker.png)
